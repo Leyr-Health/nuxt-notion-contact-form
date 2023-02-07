@@ -51,7 +51,7 @@
     </v-dialog>
 </template>
 <script setup>
-import { FormType } from '@/types'
+import { FormType } from '@/utils/models/form-type'
 
 const dialog = ref(false)
 const form = ref(null)

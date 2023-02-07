@@ -1,5 +1,5 @@
 import { Client } from "@notionhq/client"
-import { FormType } from "@/types"
+import { FormType } from "@/utils/models/form-type"
 
 const notion = new Client({ auth: process.env.NOTION_KEY })
 
