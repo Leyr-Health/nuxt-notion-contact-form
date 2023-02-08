@@ -8,6 +8,16 @@ Check the full [story](https://leyr.io/blog/how-we-replaced-3rd-party-feedback-f
 
 ## Setup
 
+Update your environment variables, e.g. in `.env` file.
+
+```bash
+NOTION_KEY=your_notion_key
+
+NOTION_DATABASE_ID=your_notion_database_id
+```
+
+More on how to get them in [our blog post](https://leyr.io/blog/how-we-replaced-3rd-party-feedback-forms-with-notion).
+
 Make sure to install the dependencies:
 
 ```bash
